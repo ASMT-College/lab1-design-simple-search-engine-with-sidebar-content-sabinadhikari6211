@@ -15,6 +15,8 @@
     }
     ?>
     <form action="" method="post">
+    <fieldset>
+        <legend>Login:</legend>
         <div>
             <label for="">Username</label>
             <input type="text" name="username">
@@ -26,6 +28,9 @@
         <input type="color" name="choose color" id="">
         <input type="date" name="date" id="">
         <input type="Submit" value="Login" name="submit">
+ 
+ 
+</fieldset>
     </form>
 </body>
 

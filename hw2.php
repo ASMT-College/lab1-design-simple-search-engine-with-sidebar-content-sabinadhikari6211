@@ -7,7 +7,8 @@
 </head>
 <body>
     <form action = "" method = "GET">
-        
+       <fieldset>
+        <legend>Login:</legend>
       <label for="">Description</label> <br>
 
       <textarea name="" id="" cols="30" rows="10">Enter your description 
@@ -26,7 +27,7 @@
          <br>
          <label for="">select one movie</label>
          
-         <br><select name = "dropdown">
+         <br><select name = "movie">
 
             <option value = "Pasupati prashad" selected>Pasupati prashad</option>
             <option value = "loot2">loot2</option>
@@ -40,6 +41,7 @@
          <input type = "reset" name = "reset"  value = "Reset" />
          <input type = "button" name = "ok" value = "OK" />
          <input type = "image" name = "imagebutton" src ="download.png" />
+         </fieldset> 
      </form>
 </body>
 </html>
